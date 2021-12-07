@@ -9,4 +9,4 @@ spec:Q
     - name: web-ctr
       image: ctpoojaj/joshiimages:kubercon
       ports:
-        - containerPort: 8080
+        - containerPort: 8081
