@@ -5,17 +5,14 @@ metadata:
   labels:
     app: webapp
 spec:
-containers:[
-{
+containers:
  - name: container1alpin
       image: alpine
       ports:
         - containerPort: 8083
-},
-{
  - name: container2nginx
       image: nginx
       ports:
         - containerPort: 8082
-}
-]
+
+
