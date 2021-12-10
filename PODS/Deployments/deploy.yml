@@ -18,7 +18,7 @@ spec:
       terminationGracePeriodSeconds: 1
       containers:
       - name: hello-pod
-        image: ctpoojaj/joshiimages:dockerdemo
+        image: ctpoojaj/joshiimages:deploymentdemo
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
